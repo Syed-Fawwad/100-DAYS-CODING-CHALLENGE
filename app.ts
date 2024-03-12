@@ -1,26 +1,21 @@
-/*100 days of coding challenge
-DAY 1/100 :start coding
-Question No 1
-installation of node js , typescript , VS code 
+/*DAY 2/100: START CODING 
+Question 1: Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the
 
-Question No 2
-Question 2: Personal Message: Store a person's name in a variable and print a 
-message to them, like "Hello Asharib, would you like to learn some TypeScript today?"*/
+quotation marks:
 
-let personName1: string= "FAWWAD";//this is name
-console.log(`hello ${personName1} would you like to learn some TYPESCRIPT today?`);//this shows the message
+"Albert Einstein once said, "A person who never made a mistake never tried anything new.*/
+console.log('Albert Einestein once said,"A person who never made a mistake never tried anything new."');
 
-/*Question No 3
-Question 3: Name Cases: Store a person's name in a variable,
- and then print that person's name in lowercase, uppercase, and titlecase.*/
-
- //lower case
-let personName: string ="Fawwad";
-console.log("lowercase:", personName.toLowerCase());
-
-//upper case
-=
-console.log("uppercase:",personName.toLocaleUpperCase());
-
-//title case
-console.log("titlecase:",personName.replace(/\)bw/g,c=>c.toUpperCase()));
+/*Question 2: Famous Quote 2: Repeat Exercise 1, but this time store the famous person's name in a variable called famous_person. 
+Then compose your message and store it in a new variable called message. Print your message.*/
+let quote: string="A PERSON WHO NEVER MADE A MISTAKE NEVER TRIED ANYTHING NEW";
+let famous_person: string="Albert Einestien";
+let message=`${famous_person} once said,${quote}`;
+console.log(message);
+/*Question 3: Stripping Names: Store a person's name, and include some whitespace 
+. Use "\t" (tab) and "\n" (new line) at least once.
+ Print the name once, so the whitespace around the name is displayed. Then print the name after stripping the white spaces.*/
+ let personName:string="\t\n FAWWAD \t\n";
+ console.log(personName);//shows name with whitespace
+ console.log(personName.trim());
+ 
